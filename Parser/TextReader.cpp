@@ -30,7 +30,7 @@ void TextReader::WriteText(vector<string> parsedText)
     ofstream out;
 
     string path = GetDirectory() + GetFileName() + "Parsed.txt";
-    cout << "path " + path;
+
     out.open(path);
 
     if (out.is_open())
